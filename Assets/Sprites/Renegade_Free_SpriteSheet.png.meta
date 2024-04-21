@@ -1,0 +1,4474 @@
+fileFormatVersion: 2
+guid: 96842e05b97c00a4785e8dcddb6491db
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 209
+        width: 50
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e4b6d0d1401e4418b3d78c1eb9df6d
+      internalID: 2049001856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 209
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb70b2f845d9be941bc86586acc5d334
+      internalID: 1053554760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 209
+        width: 62
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1cee1be84f87047af4e12f256aaeef
+      internalID: -290545697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 209
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbd2e45d250f6946a0fab059539d8c6
+      internalID: 454318065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 211
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd0a5bccddfded488cee9bb25717138
+      internalID: 494522206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 211
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d9760bfc0d01b4c9c063c63bb1caf4
+      internalID: 1757137280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 211
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3a3c1c2a801414db6a0813cb315421
+      internalID: -1286270906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 211
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d51a0995a296943a7d651d6380ce15
+      internalID: -1627829242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 211
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8725248c8d2f01748bbf351b170570f7
+      internalID: 1857295977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 211
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0221517fd9a60104ca8c5f088358c053
+      internalID: -703165431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 211
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34c232ad5dac514b87a22b80acf4033
+      internalID: 1610364377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 211
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91a57cb650adf1469137ed9d4651d4c
+      internalID: -803695926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 211
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa271db82ee8b2746a38c4beafe220ea
+      internalID: -1293305004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 211
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f678c64433fb4144e87ff786b69398e6
+      internalID: -773270099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 182
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7116aad61dc0ae44293ed94d43667c04
+      internalID: 700963860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 161
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8463ebfcf46905a4fa4399f8bf304189
+      internalID: 389972351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 161
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4505b518bc18d2c4ea4950db149ba62c
+      internalID: 1313198152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 161
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5831740a737f04e800a2c3e80a0408
+      internalID: 1786906114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 161
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55d7985b7dd3f84c99914f971184feb
+      internalID: 1850405119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 185
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3171a369ddb674486c6cd3d460002e
+      internalID: -346093237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 162
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae55261104b67f479b418ae3ad8690f
+      internalID: 1472596269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 161
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d510fe5ddce79a44b2670d211deb699
+      internalID: -1215294552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 161
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfe5ecde157e1a489f72ec3b73ca67a
+      internalID: 1464801534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 161
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee62b19f8122294e81bf75ca188bf0f
+      internalID: 387863763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 185
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147c8d1518c821249a23d18fe10771c4
+      internalID: -31659153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 182
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332a0785fe123134b9500bf7ba5b3735
+      internalID: 1650038796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 161
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481e8151b07c8b546aea4ff4c1a7cb96
+      internalID: -412353267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 168
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3822db3fd8c1541acc7413a556b184
+      internalID: 889007510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 32
+        width: 88
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8629699e1d1727419bb7f39ac6a54df
+      internalID: 843360194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 176
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3ca185474cb174598950e1268ed789
+      internalID: -1827230256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 179
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a050ed2993930c4fb16d574b598f96e
+      internalID: -1273856311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 175
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a81196a7f888447b54684eecb963ce
+      internalID: 1011413759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 175
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3565790f082764aaae150d863af8c1
+      internalID: -894317354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 161
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebcf7a8807206b45ae8ef56216ebad4
+      internalID: 864730407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 161
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54db391186648b949872281ee89af745
+      internalID: -62192606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 165
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7703af97674d5cc4bbadbed1cc03586f
+      internalID: -471227210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 171
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945e69dc8d3973f4f81291bf2e752a2d
+      internalID: -1753639508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 162
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ef74657bf08934aa9593b8cb2a2f0b
+      internalID: -1155064318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 167
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe95cf99932ead4ca890ab63ed6a09f
+      internalID: -2107487686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 161
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5da91782f78e34e9ae44460c0e6d46
+      internalID: -989706837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 150
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e379ccd4f65904da674951a626d861
+      internalID: -1494416033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 129
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab01063ad11837348998ded3e0a60bab
+      internalID: 485649393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 129
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d931c0032d9a9e142bf03cf86cd1e8d2
+      internalID: -660014145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 129
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cfd6f620b8ced4c98352ef7ee9bdba
+      internalID: 1523225767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 129
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58b85d10db5687489f82833b7e94672
+      internalID: -308934475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 153
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bf8559f9ab0ef4eb0b5c09685b8fd1
+      internalID: 1675778250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 129
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202d1ed871a0d77448ba7f571df07e9e
+      internalID: -807702632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 130
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab28a43522e02f94190a1dc59b531d6c
+      internalID: 1936588212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 129
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c7b8b604f169f40afe091a094462c7
+      internalID: 1958654166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 129
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dad3a8ae241554898db287b8df65a1
+      internalID: 435208278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 151
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48368848a65e7a4fb502273ceb7fd95
+      internalID: -385108407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 144
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3aa02f33ccab2f4fa42b3864e049cd4
+      internalID: 790440398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 129
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d068e5a92335147a43cc097071da62
+      internalID: -199139034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 129
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a538d0c0bd9a642b8c33f07906b4d7
+      internalID: 2008950935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 151
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d64c0a91ea8f248a48cee6edf39c0c
+      internalID: 90289623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 129
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9ece32d2677f246aabf467f18087c6
+      internalID: -952353113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 144
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b6109fc457f5d49a5bd5d97ef629b2
+      internalID: 1335965367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 147
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f9ba0bebab0b049849c80112a4878f
+      internalID: 1084065560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 143
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90907110006155b478d4fad32fa2d6a1
+      internalID: 2139646476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 143
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d88cf28c04ddb47a6590ba24f16074
+      internalID: 37693982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 133
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8265d7b78d6f93942be53d96c148078e
+      internalID: 745169574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 139
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c49a8fd235ef441af80fe9e038e53a
+      internalID: 1266020801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 138
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e46f7115411234db1f53ae1eaaf306
+      internalID: -1235031824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 137
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a4f1541d58d6a4cb105bddc1bbc316
+      internalID: -2086869782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 137
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79e70625b12b9542b0661df4615c6aa
+      internalID: 1892624719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 124
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce00bd6d2bdcf844b7b9fc058e41fa2
+      internalID: 984493084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 130
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93658f69115f3104989b96b71b018441
+      internalID: -1232478024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 130
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7425c3f19e7a4a94592e143ba208fb36
+      internalID: 1722614265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 132
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a6268de2e5f224b86a527bbc62e5c6
+      internalID: -139566734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 121
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d7b86186f7ff24a962c0e517232db3
+      internalID: -1257576046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 97
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c01db8002beb1c4c8e422619dbbf5d4
+      internalID: 483370187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 97
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d100984ee17c9d141852d88bb911c2ca
+      internalID: 1759855081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 97
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89017cfabe4cce40bedcc7e2052eb95
+      internalID: 1544851012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 97
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c051bb7bac2444bb5acdacf5d22395
+      internalID: -1342884417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 112
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbe2e5f5e954994e918dd5585b7c96d
+      internalID: 165930562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 97
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27cc3848472dac408e530c31994d971
+      internalID: -1043886113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 97
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4587890c4fad77e45a6c102bf02a281c
+      internalID: 1765770206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 97
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5be1a9068964a41887911af2381296
+      internalID: 1932633683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 97
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66a118b5b565374183d1c0e86f55574
+      internalID: 1055901563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 122
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56977cc604644b4439de37f6d888e49c
+      internalID: 1971084779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 97
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e88c405db7c3a45af6cac5583b4ff8
+      internalID: -1559933099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 117
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4167032e5cb9c71459e3d6db2b5a55a5
+      internalID: -862303158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 98
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bd035da85f7dc4a8c10abf20ec0647
+      internalID: 1730438036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 115
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a939a517421557240834c17ae78b4112
+      internalID: 875805592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 116
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d63e2851bce6f458a30b17500165ca
+      internalID: -1242673042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 107
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4854ae690a51c742909d00d1d341cf9
+      internalID: 615399912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 107
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a488571cbb70f1449689831dd698a8f
+      internalID: 100162245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 109
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58aa54627cf00040bb63c71c8c64b4a
+      internalID: -1971882254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 110
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c59ca190789514fbc3019f3a806200
+      internalID: 800023134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 97
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141ddab6dbe2a5443ba2e659f16a2aca
+      internalID: -1689759560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 102
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849766d4f90250748b3d1c05f7bfa7c8
+      internalID: 1270243752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 103
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745406b18f9a5664fa31ffacb84e249e
+      internalID: 124860675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652e0d080b7debf4b892164e7b736265
+      internalID: -973785906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 92
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f640d055f2f55674b8248732c60851fe
+      internalID: -144605497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 97
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afc958bfc56f79449f608dd2d1ecdce
+      internalID: -1463780190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 89
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c448659d3d819479fec7c01759f7e7
+      internalID: 286140230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 65
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a5eb143feba80479491263a08d780e
+      internalID: 1042088025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684c9b8edefa52c48aa6aa1c108c6d9a
+      internalID: 1170186914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 65
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d244fa6eb5e3e8f4b9441cd22ae56efd
+      internalID: -2086648801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0effe98ffdf8e744185b4a86eb823961
+      internalID: 1064729780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 80
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492a5b797bdd48945a800a87819f6d4d
+      internalID: 569948178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 65
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a82ecd01be63174faa54528e65b5af6
+      internalID: 756845649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 65
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0a0fd715455e04d9e23cc4eb8041e6
+      internalID: 326860383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 65
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48aeeaa2f10a13046bde1ccfd35e1372
+      internalID: 241889912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 65
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d038db4d0bf788a44ab7767417a24ec4
+      internalID: 299009180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 90
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24604c4c3b9a12448a1240c24d9f6c34
+      internalID: -571894131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 65
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c230aa019984c845a46c2fec2cdcf77
+      internalID: 1790462297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 85
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7701e2b3e139f4ebc84a90d37bb4b3
+      internalID: 1923772042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 65
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496039d6c893833478c60f72c6593556
+      internalID: -1505723953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 84
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5efba31b9b19f41a814db7811947e5
+      internalID: 885496377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 84
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daea623288792b248b81c2d6146dbd6f
+      internalID: -40502864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 79
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e74a7b5d3fe42458014ff9e29488c5
+      internalID: -2055343277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 77
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e82ee7cb7c6a8a46b7ed910b47b0eb0
+      internalID: 685766709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 78
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e16eef8d195994f8ac9400957fd5c4
+      internalID: 214782050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 70
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a4eed24d7da994d830f99ce5f991a4
+      internalID: -1045630136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 75
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b18e9851d5940541b888dc7b163b885
+      internalID: 1538564776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 71
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53cb95b7c5083345ba4dc4027044a60
+      internalID: 668559018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e0c6a296da6e3419a318bbb95ffc4c
+      internalID: -122274646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 70
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ada7180d4d90943a116d24e3162261
+      internalID: -2121940368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 65
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655abcef8fc41724381bc63b4d2c8afd
+      internalID: -1942021283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 65
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd418eb3300c52f42973b65ff37ee683
+      internalID: -1129890977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 65
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d0e28140ab2174996a1ca5994d95cb
+      internalID: -1677142074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191c661ff0f81ff4ba60d412c675e8cc
+      internalID: 1919414753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66df03a7d7c021442be0417b74fd7180
+      internalID: -377595002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 34
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4d619adae1bde4e9112cba25a538df
+      internalID: -1729317416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f441c26255fff5143bd08065f973f021
+      internalID: -1720037994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 54
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2dde03bc6acbf419167d580911c303
+      internalID: 1081419527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 56
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e797a56e4ad342e4e89bdecdf24fbb29
+      internalID: -943521173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 33
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6121ef5a5b49a44f814ca316d7b9b1c
+      internalID: 1564926708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 58
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee12370cac78adc4998c6c4e9cdcb1c4
+      internalID: 1828065144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 56
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85de86bc4f35b224994f1b45c4e99e54
+      internalID: -1825442035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 57
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5a4805a2e3c644a90bb850a3c56a07
+      internalID: 1952799069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 52
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8d9e5a19cad704580c2360ec06f057
+      internalID: -451048367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 49
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2d024db8314cc43b9a71ac7fecbcc6
+      internalID: -186474431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 33
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3eb2e124c2c12d4392a642fe99325bd
+      internalID: -249746884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 50
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6657ec4d94d9342b9d974bcfe75430
+      internalID: -1066908124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 53
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd94e605532eb4489998394882398c7
+      internalID: 1146116167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 51
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abd1c79c90c94f48b75aab959b74f07
+      internalID: -1998926651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 36
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4229b759c2b60a94f9cc625d2fa744b6
+      internalID: -1404650967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 39
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587261af87171d24d9e8ff57ffe25b42
+      internalID: -1423767449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 51
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8a3a1ce8229fc43abdf2d2a6284354
+      internalID: -2007811109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 44
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8c4deb4e0036540b8206817f48a932
+      internalID: -77489389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 44
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca96a218b3930d748af7874b135694bb
+      internalID: -1384243738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 42
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b121503e41524f4c937de2482e49b0c
+      internalID: -317324051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 39
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47b414f7958426459b25cc27078328b
+      internalID: 1079603792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 46
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ae34f6aee0b564b99b1f59b0ee6473
+      internalID: -1138860242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 45
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a180f4c845e9004198d090b071d459c
+      internalID: 855850302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 44
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2195e11eee69e274c8e7d31c0550bd74
+      internalID: -923858424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 37
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac7504eb7bade94da798e7eaf05f400
+      internalID: 1005478386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 37
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b58861e4f70044ab0902620fabeb49
+      internalID: -1886061579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 34
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d968c00ead2e8428fe323d21569306
+      internalID: 2077796161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 38
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1810d9d7ff399f4e92d8f995fd7be10
+      internalID: 250243191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 39
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0501cff79cc142a40980ce33db88a02f
+      internalID: -1970937812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 32
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd9571bff2c3b440b1d0d13e0d8bbcf
+      internalID: -583864583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 33
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fb4ddd586a34846a836f790d7ddc11
+      internalID: 786815743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 33
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd11c6b81dd650643afb05737a7fe74b
+      internalID: 2009718850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 33
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f0b17e9431f2f4785e4a9eeaf9991d
+      internalID: -1344408807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 25
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc89bd0bb6d31cc4bbabfdb3909f01c9
+      internalID: 16743204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 5
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29cfa1659b01b449aedb72e3b0c4b26
+      internalID: -715392695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffae45e8e5aeac4aba453f2eb705962
+      internalID: -2144594013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 5
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4c7682269c7a746a42f9e752f3cd3f
+      internalID: -921508337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860ca54d37fc5504ba9e4eb244a91585
+      internalID: 2012928640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 24
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c192926c3835c49a056fd12e83969f
+      internalID: 98194425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfb115156c9f314da7a289ba21b5f5c
+      internalID: 915958044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c297b23234fbd649b36fa2e732fc34f
+      internalID: -1887134468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8084dabfd6a9444383d1162c8045b04
+      internalID: -1784473809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f414368620b27ad488d2272d687d25f4
+      internalID: 129397959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 24
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8445225e9a5a6f646831c985370b197a
+      internalID: -1170530948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 23
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4606098bf321c45bc3f609948d841a
+      internalID: -189621756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 21
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747c94b3caad21647b2726a5e17ef0d4
+      internalID: 1648592722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 8
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6834c7fe7b257b43a93b7d1ec89038c
+      internalID: -396730938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5239afb1f4e4b428ac829dcfacbfec
+      internalID: -42712320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 10
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89e43d734e663b47b07c4d5d730638a
+      internalID: -1279317015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 18
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cd2cd68dadbf34ba3da113a3554fcb
+      internalID: 730866074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 17
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df41db98dbb847642ac43c3d8e9740a5
+      internalID: -1863812522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35de88a7722bbf1469ae6ed5093e5b42
+      internalID: 1008809118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ba78ca6377eb9439373446492d1874
+      internalID: 1050440315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 19
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aaf02dc440a444896be3e5b88be70f
+      internalID: 80830715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 17
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a6fb9f22e1137449435a05e79d5fc8
+      internalID: -578410790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f020937284ca2214088572bd7ca1634a
+      internalID: -1786340092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 14
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8852db13a710d0542adeb0b89003660a
+      internalID: -1631947999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 16
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57eecc04e21e33d4b88d1fad6cbcda23
+      internalID: -567960514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31a8fd03702d66448ac1373ba86a5e0
+      internalID: -1327522784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23a8238a19b4d143b250818610ea4a5
+      internalID: -1236568523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 10
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865181b1b68fd14428a452b1561df123
+      internalID: 1646881508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 12
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63dfc875e3cd8b4387f9a3263978df6
+      internalID: -816781000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 14
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def38bc8dba3580409e4566c92d9e0f3
+      internalID: -1870150771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 8
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e43a5a696267b4abd88d67cddbf9c1
+      internalID: -558697313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25931c605a44ee1469d03ca884c00824
+      internalID: 732479385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f4bbeba7f74114cad623570bb56fde
+      internalID: 928861547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 3
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0ac62a835b7b64fa07ebd41ca72d5b
+      internalID: -931253993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 7
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5ad1d9d2e47b14f8b5aeff6fc4a81e
+      internalID: -1382579281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 6
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cff703313b94a446b3bcbe96e02eda0
+      internalID: 1154775854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 4
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec3dd296751d4446abc4a8b844cfa85
+      internalID: 275292558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 8
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a63b59e2b4427b4196a0c8c3cce8c06
+      internalID: -1123936093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b9b21291244114a8c46bf286434fc2
+      internalID: 209015709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Renegade_Free_SpriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a251c3abb0a5b4ba84639f5ec3bd08
+      internalID: -1811469815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Renegade_Free_SpriteSheet_0: 2049001856
+      Renegade_Free_SpriteSheet_1: 1053554760
+      Renegade_Free_SpriteSheet_10: 1610364377
+      Renegade_Free_SpriteSheet_100: 569948178
+      Renegade_Free_SpriteSheet_101: 756845649
+      Renegade_Free_SpriteSheet_102: 326860383
+      Renegade_Free_SpriteSheet_103: 241889912
+      Renegade_Free_SpriteSheet_104: 299009180
+      Renegade_Free_SpriteSheet_105: -571894131
+      Renegade_Free_SpriteSheet_106: 1790462297
+      Renegade_Free_SpriteSheet_107: 1923772042
+      Renegade_Free_SpriteSheet_108: -1505723953
+      Renegade_Free_SpriteSheet_109: 885496377
+      Renegade_Free_SpriteSheet_11: -803695926
+      Renegade_Free_SpriteSheet_110: -40502864
+      Renegade_Free_SpriteSheet_111: -2055343277
+      Renegade_Free_SpriteSheet_112: 685766709
+      Renegade_Free_SpriteSheet_113: 214782050
+      Renegade_Free_SpriteSheet_114: -1045630136
+      Renegade_Free_SpriteSheet_115: 1538564776
+      Renegade_Free_SpriteSheet_116: 668559018
+      Renegade_Free_SpriteSheet_117: -122274646
+      Renegade_Free_SpriteSheet_118: -2121940368
+      Renegade_Free_SpriteSheet_119: -1942021283
+      Renegade_Free_SpriteSheet_12: -1293305004
+      Renegade_Free_SpriteSheet_120: -1129890977
+      Renegade_Free_SpriteSheet_121: -1677142074
+      Renegade_Free_SpriteSheet_122: 1919414753
+      Renegade_Free_SpriteSheet_123: -377595002
+      Renegade_Free_SpriteSheet_124: -1729317416
+      Renegade_Free_SpriteSheet_125: -1720037994
+      Renegade_Free_SpriteSheet_126: 1081419527
+      Renegade_Free_SpriteSheet_127: -943521173
+      Renegade_Free_SpriteSheet_128: 1564926708
+      Renegade_Free_SpriteSheet_129: 1828065144
+      Renegade_Free_SpriteSheet_13: -773270099
+      Renegade_Free_SpriteSheet_130: -1825442035
+      Renegade_Free_SpriteSheet_131: 1952799069
+      Renegade_Free_SpriteSheet_132: -451048367
+      Renegade_Free_SpriteSheet_133: -186474431
+      Renegade_Free_SpriteSheet_134: -249746884
+      Renegade_Free_SpriteSheet_135: -1066908124
+      Renegade_Free_SpriteSheet_136: 1146116167
+      Renegade_Free_SpriteSheet_137: -1998926651
+      Renegade_Free_SpriteSheet_138: -1404650967
+      Renegade_Free_SpriteSheet_139: -1423767449
+      Renegade_Free_SpriteSheet_14: 700963860
+      Renegade_Free_SpriteSheet_140: -2007811109
+      Renegade_Free_SpriteSheet_141: -77489389
+      Renegade_Free_SpriteSheet_142: -1384243738
+      Renegade_Free_SpriteSheet_143: -317324051
+      Renegade_Free_SpriteSheet_144: 1079603792
+      Renegade_Free_SpriteSheet_145: -1138860242
+      Renegade_Free_SpriteSheet_146: 855850302
+      Renegade_Free_SpriteSheet_147: -923858424
+      Renegade_Free_SpriteSheet_148: 1005478386
+      Renegade_Free_SpriteSheet_149: -1886061579
+      Renegade_Free_SpriteSheet_15: 389972351
+      Renegade_Free_SpriteSheet_150: 2077796161
+      Renegade_Free_SpriteSheet_151: 250243191
+      Renegade_Free_SpriteSheet_152: -1970937812
+      Renegade_Free_SpriteSheet_153: -583864583
+      Renegade_Free_SpriteSheet_154: 786815743
+      Renegade_Free_SpriteSheet_155: 2009718850
+      Renegade_Free_SpriteSheet_156: -1344408807
+      Renegade_Free_SpriteSheet_157: 16743204
+      Renegade_Free_SpriteSheet_158: -715392695
+      Renegade_Free_SpriteSheet_159: -2144594013
+      Renegade_Free_SpriteSheet_16: 1313198152
+      Renegade_Free_SpriteSheet_160: -921508337
+      Renegade_Free_SpriteSheet_161: 2012928640
+      Renegade_Free_SpriteSheet_162: 98194425
+      Renegade_Free_SpriteSheet_163: 915958044
+      Renegade_Free_SpriteSheet_164: -1887134468
+      Renegade_Free_SpriteSheet_165: -1784473809
+      Renegade_Free_SpriteSheet_166: 129397959
+      Renegade_Free_SpriteSheet_167: -1170530948
+      Renegade_Free_SpriteSheet_168: -189621756
+      Renegade_Free_SpriteSheet_169: 1648592722
+      Renegade_Free_SpriteSheet_17: 1786906114
+      Renegade_Free_SpriteSheet_170: -396730938
+      Renegade_Free_SpriteSheet_171: -42712320
+      Renegade_Free_SpriteSheet_172: -1279317015
+      Renegade_Free_SpriteSheet_173: 730866074
+      Renegade_Free_SpriteSheet_174: -1863812522
+      Renegade_Free_SpriteSheet_175: 1008809118
+      Renegade_Free_SpriteSheet_176: 1050440315
+      Renegade_Free_SpriteSheet_177: 80830715
+      Renegade_Free_SpriteSheet_178: -578410790
+      Renegade_Free_SpriteSheet_179: -1786340092
+      Renegade_Free_SpriteSheet_18: 1850405119
+      Renegade_Free_SpriteSheet_180: -1631947999
+      Renegade_Free_SpriteSheet_181: -567960514
+      Renegade_Free_SpriteSheet_182: -1327522784
+      Renegade_Free_SpriteSheet_183: -1236568523
+      Renegade_Free_SpriteSheet_184: 1646881508
+      Renegade_Free_SpriteSheet_185: -816781000
+      Renegade_Free_SpriteSheet_186: -1870150771
+      Renegade_Free_SpriteSheet_187: -558697313
+      Renegade_Free_SpriteSheet_188: 732479385
+      Renegade_Free_SpriteSheet_189: 928861547
+      Renegade_Free_SpriteSheet_19: -346093237
+      Renegade_Free_SpriteSheet_190: -931253993
+      Renegade_Free_SpriteSheet_191: -1382579281
+      Renegade_Free_SpriteSheet_192: 1154775854
+      Renegade_Free_SpriteSheet_193: 275292558
+      Renegade_Free_SpriteSheet_194: -1123936093
+      Renegade_Free_SpriteSheet_195: 209015709
+      Renegade_Free_SpriteSheet_196: -1811469815
+      Renegade_Free_SpriteSheet_2: -290545697
+      Renegade_Free_SpriteSheet_20: 1472596269
+      Renegade_Free_SpriteSheet_21: -1215294552
+      Renegade_Free_SpriteSheet_22: 1464801534
+      Renegade_Free_SpriteSheet_23: 387863763
+      Renegade_Free_SpriteSheet_24: -31659153
+      Renegade_Free_SpriteSheet_25: 1650038796
+      Renegade_Free_SpriteSheet_26: -412353267
+      Renegade_Free_SpriteSheet_27: 889007510
+      Renegade_Free_SpriteSheet_28: 843360194
+      Renegade_Free_SpriteSheet_29: -1827230256
+      Renegade_Free_SpriteSheet_3: 454318065
+      Renegade_Free_SpriteSheet_30: -1273856311
+      Renegade_Free_SpriteSheet_31: 1011413759
+      Renegade_Free_SpriteSheet_32: -894317354
+      Renegade_Free_SpriteSheet_33: 864730407
+      Renegade_Free_SpriteSheet_34: -62192606
+      Renegade_Free_SpriteSheet_35: -471227210
+      Renegade_Free_SpriteSheet_36: -1753639508
+      Renegade_Free_SpriteSheet_37: -1155064318
+      Renegade_Free_SpriteSheet_38: -2107487686
+      Renegade_Free_SpriteSheet_39: -989706837
+      Renegade_Free_SpriteSheet_4: 494522206
+      Renegade_Free_SpriteSheet_40: -1494416033
+      Renegade_Free_SpriteSheet_41: 485649393
+      Renegade_Free_SpriteSheet_42: -660014145
+      Renegade_Free_SpriteSheet_43: 1523225767
+      Renegade_Free_SpriteSheet_44: -308934475
+      Renegade_Free_SpriteSheet_45: 1675778250
+      Renegade_Free_SpriteSheet_46: -807702632
+      Renegade_Free_SpriteSheet_47: 1936588212
+      Renegade_Free_SpriteSheet_48: 1958654166
+      Renegade_Free_SpriteSheet_49: 435208278
+      Renegade_Free_SpriteSheet_5: 1757137280
+      Renegade_Free_SpriteSheet_50: -385108407
+      Renegade_Free_SpriteSheet_51: 790440398
+      Renegade_Free_SpriteSheet_52: -199139034
+      Renegade_Free_SpriteSheet_53: 2008950935
+      Renegade_Free_SpriteSheet_54: 90289623
+      Renegade_Free_SpriteSheet_55: -952353113
+      Renegade_Free_SpriteSheet_56: 1335965367
+      Renegade_Free_SpriteSheet_57: 1084065560
+      Renegade_Free_SpriteSheet_58: 2139646476
+      Renegade_Free_SpriteSheet_59: 37693982
+      Renegade_Free_SpriteSheet_6: -1286270906
+      Renegade_Free_SpriteSheet_60: 745169574
+      Renegade_Free_SpriteSheet_61: 1266020801
+      Renegade_Free_SpriteSheet_62: -1235031824
+      Renegade_Free_SpriteSheet_63: -2086869782
+      Renegade_Free_SpriteSheet_64: 1892624719
+      Renegade_Free_SpriteSheet_65: 984493084
+      Renegade_Free_SpriteSheet_66: -1232478024
+      Renegade_Free_SpriteSheet_67: 1722614265
+      Renegade_Free_SpriteSheet_68: -139566734
+      Renegade_Free_SpriteSheet_69: -1257576046
+      Renegade_Free_SpriteSheet_7: -1627829242
+      Renegade_Free_SpriteSheet_70: 483370187
+      Renegade_Free_SpriteSheet_71: 1759855081
+      Renegade_Free_SpriteSheet_72: 1544851012
+      Renegade_Free_SpriteSheet_73: -1342884417
+      Renegade_Free_SpriteSheet_74: 165930562
+      Renegade_Free_SpriteSheet_75: -1043886113
+      Renegade_Free_SpriteSheet_76: 1765770206
+      Renegade_Free_SpriteSheet_77: 1932633683
+      Renegade_Free_SpriteSheet_78: 1055901563
+      Renegade_Free_SpriteSheet_79: 1971084779
+      Renegade_Free_SpriteSheet_8: 1857295977
+      Renegade_Free_SpriteSheet_80: -1559933099
+      Renegade_Free_SpriteSheet_81: -862303158
+      Renegade_Free_SpriteSheet_82: 1730438036
+      Renegade_Free_SpriteSheet_83: 875805592
+      Renegade_Free_SpriteSheet_84: -1242673042
+      Renegade_Free_SpriteSheet_85: 615399912
+      Renegade_Free_SpriteSheet_86: 100162245
+      Renegade_Free_SpriteSheet_87: -1971882254
+      Renegade_Free_SpriteSheet_88: 800023134
+      Renegade_Free_SpriteSheet_89: -1689759560
+      Renegade_Free_SpriteSheet_9: -703165431
+      Renegade_Free_SpriteSheet_90: 1270243752
+      Renegade_Free_SpriteSheet_91: 124860675
+      Renegade_Free_SpriteSheet_92: -973785906
+      Renegade_Free_SpriteSheet_93: -144605497
+      Renegade_Free_SpriteSheet_94: -1463780190
+      Renegade_Free_SpriteSheet_95: 286140230
+      Renegade_Free_SpriteSheet_96: 1042088025
+      Renegade_Free_SpriteSheet_97: 1170186914
+      Renegade_Free_SpriteSheet_98: -2086648801
+      Renegade_Free_SpriteSheet_99: 1064729780
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
