@@ -23,10 +23,7 @@ public class HealthManager : MonoBehaviour
         {
             return target.GetComponent<PlayerHealth>().maxHealth;
         }
-        else if (target.GetComponent<EnemyMovement>() != null)
-        {
-            return target.GetComponent<EnemyMovement>().maxHealth;
-        }
+        
         return 0;
     }
 
@@ -51,11 +48,7 @@ public class HealthManager : MonoBehaviour
         {
             return target.GetComponent<PlayerHealth>().currentHealth;
         }
-        else if (target.GetComponent<EnemyMovement>() != null)
-        {
-            return target.GetComponent<EnemyMovement>().currentHealth;
-        }
-        return 0;
+        return -1;
     }
 
     void Update()
