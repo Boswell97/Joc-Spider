@@ -36,10 +36,14 @@ public class VenomMoves : MonoBehaviour
         }
         else if (currentState == State.Attack)
         {
-            // Si el jugador está fuera del rango de ataque, cambiar al estado de patrulla
-            if (!PlayerInRange())
+            VenomAttack venomAttackComponent = GetComponent<VenomAttack>();
+            if (venomAttackComponent != null)
             {
-                ChangeState(State.Patrol);
+                venomAttackComponent.Attack();
+            }
+            else
+            {
+                Debug.LogError("VenomAttack component not found!");
             }
         }
     }
@@ -53,9 +57,18 @@ public class VenomMoves : MonoBehaviour
         }
         else if (currentState == State.Attack)
         {
-            Attack();
+            VenomAttack venomAttackComponent = GetComponent<VenomAttack>();
+            if (venomAttackComponent != null)
+            {
+                venomAttackComponent.Attack();
+            }
+            else
+            {
+                Debug.LogError("VenomAttack component not found!");
+            }
         }
     }
+
 
     void ChangeState(State newState)
     {
@@ -74,7 +87,6 @@ public class VenomMoves : MonoBehaviour
             animator.SetBool("VenomPunch", true);
         }
     }
-
 
     void Patrol()
     {
@@ -102,28 +114,6 @@ public class VenomMoves : MonoBehaviour
 
         // Voltea el sprite en la dirección correcta
         if (targetPoint.x > rb.position.x)
-        {
-            transform.localScale = new Vector3(1, 1, 1);
-        }
-        else
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
-    }
-    void Attack()
-    {
-        // Si ha pasado el tiempo de espera entre ataques, ejecutar el golpe
-        if (Time.time - lastAttackTime >= attackCooldown)
-        {
-            animator.SetTrigger("VenomPunch");
-            lastAttackTime = Time.time;
-        }
-        // Mover al enemigo hacia el jugador a velocidad de ataque
-        Vector2 playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
-        float moveSpeed = attackSpeed * Time.fixedDeltaTime;
-        rb.position = Vector2.MoveTowards(rb.position, playerPosition, moveSpeed);
-        // Voltear el sprite hacia el jugador
-        if (playerPosition.x > rb.position.x)
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
