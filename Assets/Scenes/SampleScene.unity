@@ -502,6 +502,7 @@ MonoBehaviour:
   animator: {fileID: 346622084}
   attackRange: {fileID: 840214144}
   attackAnimationName: VenomPunch
+  damageAmount: 10
 --- !u!114 &346622088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,7 +519,6 @@ MonoBehaviour:
   animator: {fileID: 346622084}
   moveSpeed: 2
   walkAnimationName: VenomWalks
-  idleAnimationName: VenomIdle
   isAttacking: 0
 --- !u!114 &346622089
 MonoBehaviour:
@@ -1169,10 +1169,9 @@ GameObject:
   - component: {fileID: 1320903339}
   - component: {fileID: 1320903341}
   - component: {fileID: 1320903343}
-  - component: {fileID: 1320903345}
   - component: {fileID: 1320903346}
-  - component: {fileID: 1320903348}
   - component: {fileID: 1320903347}
+  - component: {fileID: 1320903348}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1343,20 +1342,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &1320903345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320903322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88aef8eba8159bf4e85a5c6650d5a051, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 22
 --- !u!70 &1320903346
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1420,11 +1405,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1320903322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b816e470b9fa45848a7dffcffa1345fb, type: 3}
+  m_Script: {fileID: 11500000, guid: aebb72915651d28408706d847b64d4fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  healthBar: {fileID: 0}
+  currentHealth: 0
   lifes: 2
 --- !u!1 &1402198680
 GameObject:
@@ -1457,6 +1442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1320903322}
   healthBar: {fileID: 557990574}
+  targetHealth: {fileID: 0}
 --- !u!4 &1402198682
 Transform:
   m_ObjectHideFlags: 0

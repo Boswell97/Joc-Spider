@@ -6,6 +6,7 @@ public class EnemyAttackConcept : MonoBehaviour
     public Animator animator; // Referencia al componente Animator para controlar las animaciones de ataque
     public Transform attackRange; // Transformador que define el rango de ataque del enemigo
     public string attackAnimationName; // Nombre de la animación de ataque
+    public int damageAmount = 10; // Cantidad de daño que hace el enemigo al jugador
 
     private EnemyMovesConcept enemyMoves; // Referencia al script de movimiento del enemigo
 
@@ -33,6 +34,13 @@ public class EnemyAttackConcept : MonoBehaviour
             if (!string.IsNullOrEmpty(attackAnimationName))
             {
                 animator.SetTrigger(attackAnimationName);
+            }
+
+            // Hacer daño al jugador
+            healthConcept playerHealth = playerTransform.GetComponent<healthConcept>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damageAmount);
             }
 
             // Cambiar al estado de movimiento después de atacar

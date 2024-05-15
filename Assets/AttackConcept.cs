@@ -40,7 +40,7 @@ public class AttackConcept : MonoBehaviour
         // Aplicar daño a los objetivos detectados
         foreach (Collider2D target in hitTargets)
         {
-            HealthConcept health = target.GetComponent<HealthConcept>();
+            healthConcept health = target.GetComponent<healthConcept>();
             if (health != null)
             {
                 health.TakeDamage(damageAmount);

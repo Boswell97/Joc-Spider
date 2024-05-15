@@ -6,7 +6,6 @@ public class EnemyMovesConcept : MonoBehaviour
     public Animator animator; // Referencia al componente Animator para controlar las animaciones de movimiento
     public float moveSpeed = 2f; // Velocidad de movimiento del enemigo
     public string walkAnimationName; // Nombre de la animación de caminar
-    public string idleAnimationName; // Nombre de la animación de estar quieto
 
     public bool isAttacking = false; // Indica si el enemigo está atacando
 
@@ -31,7 +30,6 @@ public class EnemyMovesConcept : MonoBehaviour
         if (!string.IsNullOrEmpty(walkAnimationName))
         {
             animator.SetBool(walkAnimationName, true);
-            animator.SetBool(idleAnimationName, false);
         }
     }
 
@@ -44,7 +42,7 @@ public class EnemyMovesConcept : MonoBehaviour
         if (!string.IsNullOrEmpty(walkAnimationName))
         {
             animator.SetBool(walkAnimationName, false);
-            animator.SetBool(idleAnimationName, true);
         }
     }
 }
+

@@ -5,12 +5,12 @@ public class HealthManager : MonoBehaviour
 {
     public GameObject target; // Objeto objetivo con el componente de salud
     public Image healthBar; // Barra de salud que se llenará y vaciará
-    private HealthPlayer targetHealth; // Referencia al componente Health del objetivo
+    public healthConcept targetHealth; // Referencia al componente Health del objetivo
 
     void Start()
     {
         // Obtener el componente de salud del objetivo
-        targetHealth = target.GetComponent<HealthPlayer>();
+        targetHealth = target.GetComponent<healthConcept>();
 
         // Actualizar visualmente la barra de salud al inicio
         UpdateHealthBar();
