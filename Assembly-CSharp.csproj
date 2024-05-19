@@ -55,26 +55,32 @@
     <UnityVersion>2022.3.28f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.28f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.28f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\HealthManager.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
-    <Compile Include="Assets\Scripts\Teleporter.cs" />
-    <Compile Include="Assets\VenomHealth.cs" />
+    <Compile Include="Assets\Scripts\EnemyAttackRange.cs" />
+    <Compile Include="Assets\Scripts\EnemyDeathHandler.cs" />
+    <Compile Include="Assets\Scripts\HealthConceptEnemy.cs" />
     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
-    <Compile Include="Assets\Scripts\AirMovement.cs" />
+    <Compile Include="Assets\Scripts\ColiderLogic.cs" />
+    <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\EnemyMovesConcept.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementAir.cs" />
-    <Compile Include="Assets\Scripts\PLayerAir.cs" />
+    <Compile Include="Assets\Scripts\PlayerControler.cs" />
+    <Compile Include="Assets\DelayAnimation.cs" />
+    <Compile Include="Assets\Scripts\AttackConcept.cs" />
+    <Compile Include="Assets\Scripts\AiAttackLogic.cs" />
     <Compile Include="Assets\Scripts\TocandoSuelos.cs" />
-    <Compile Include="Assets\Scripts\TeleporterLogic.cs" />
-    <Compile Include="Assets\VenomMoves.cs" />
+    <Compile Include="Assets\EnemyChaser.cs" />
     <Compile Include="Assets\Scripts\UxLifes.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\EnemyAlt.cs" />
-    <Compile Include="Assets\Scripts\PlayerAtack.cs" />
+    <Compile Include="Assets\ScriptActivator.cs" />
+    <Compile Include="Assets\PatrolAi.cs" />
+    <Compile Include="Assets\Scripts\healthConcept.cs" />
+    <Compile Include="Assets\Fliper.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
