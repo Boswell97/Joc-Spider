@@ -16,7 +16,7 @@ public class UxLifes : MonoBehaviour
         }
 
         // Obtener el componente PlayerMovement del objeto del jugador
-        PlayerHealth dios = playerTransform.GetComponent<PlayerHealth>();
+        healthConcept dios = playerTransform.GetComponent<healthConcept>();
 
         // Verificar si se encontró el componente PlayerMovement y si tiene una variable lifes
         if (dios != null)

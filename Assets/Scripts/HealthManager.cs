@@ -3,59 +3,34 @@ using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
 {
-    public GameObject target; // Objeto objetivo con la variable de salud
+    public GameObject target; // Objeto objetivo con el componente de salud
     public Image healthBar; // Barra de salud que se llenará y vaciará
-    private int maxHealth; // Salud máxima del objetivo
+    public healthConcept targetHealth; // Referencia al componente Health del objetivo
 
     void Start()
     {
-        // Obtener la salud máxima del objetivo
-        maxHealth = GetMaxHealth(target);
+        // Obtener el componente de salud del objetivo
+        targetHealth = target.GetComponent<healthConcept>();
 
         // Actualizar visualmente la barra de salud al inicio
         UpdateHealthBar();
     }
 
-    // Método para obtener la salud máxima del objetivo
-    private int GetMaxHealth(GameObject target)
-    {
-        if (target.GetComponent<PlayerHealth>() != null)
-        {
-            return target.GetComponent<PlayerHealth>().maxHealth;
-        }
-        else if (target.GetComponent<EnemyMovement>() != null)
-        {
-            return target.GetComponent<EnemyMovement>().maxHealth;
-        }
-        return 0;
-    }
-
     // Método para actualizar visualmente la barra de salud
     private void UpdateHealthBar()
     {
-        // Obtener la salud actual del objetivo
-        int currentHealth = GetCurrentHealth(target);
-
-
-        // Calcular el porcentaje de salud actual
-        float healthPercentage = (float)currentHealth / maxHealth;
-
-        // Actualizar fillAmount de la barra de salud
-        healthBar.fillAmount = healthPercentage;
-    }
-
-    // Método para obtener la salud actual del objetivo
-    private int GetCurrentHealth(GameObject target)
-    {
-        if (target.GetComponent<PlayerHealth>() != null)
+        if (targetHealth != null)
         {
-            return target.GetComponent<PlayerHealth>().currentHealth;
+            // Calcular el porcentaje de salud actual
+            float healthPercentage = (float)targetHealth.currentHealth / targetHealth.maxHealth;
+
+            // Actualizar fillAmount de la barra de salud
+            healthBar.fillAmount = healthPercentage;
         }
-        else if (target.GetComponent<EnemyMovement>() != null)
+        else
         {
-            return target.GetComponent<EnemyMovement>().currentHealth;
+            Debug.LogError("No se encontró el componente Health en el objetivo.");
         }
-        return 0;
     }
 
     void Update()
