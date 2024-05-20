@@ -737,7 +737,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1244397444
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1084,7 +1084,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   attackRange: {fileID: 2131609148}
-  damageAmount: 50
+  damageAmount: 25
   attackAnimationName: isPunching
   attackRadius: 2.5
 --- !u!114 &1320903348
@@ -1524,7 +1524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackAnimationName: VenomIsPunching
-  damageAmount: 1
+  damageAmount: 10
   isAttacking: 0
 --- !u!114 &1738831316
 MonoBehaviour:
@@ -1772,9 +1772,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItIsInRange: 0
-  elPlayer: {fileID: 0}
-  elEnemy: {fileID: 0}
-  fliper: {fileID: 0}
   ItIsInRangeParam: ItIsInRange
   IsPunchingParam: VenomIsPunching
 --- !u!1 &2131609147
