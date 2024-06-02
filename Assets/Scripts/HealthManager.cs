@@ -1,48 +1,67 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
 {
-    public GameObject target; // Objeto objetivo con el componente de salud
-    public Image healthBar; // Barra de salud que se llenará y vaciará
-    public healthConcept targetHealth; // Referencia al componente Health del objetivo
+    [System.Serializable]
+    public class HealthBarTarget
+    {
+        public GameObject target;
+        public Image healthBar;
+        [HideInInspector]
+        public healthConcept targetHealth;
+    }
+
+    [Header("Health Bar Targets")]
+    public List<HealthBarTarget> healthBarTargets = new List<HealthBarTarget>();
 
     void Start()
     {
-        // Obtener el componente de salud del objetivo
-        targetHealth = target.GetComponent<healthConcept>();
+        foreach (var healthBarTarget in healthBarTargets)
+        {
+            if (healthBarTarget.target != null)
+            {
+                healthBarTarget.targetHealth = healthBarTarget.target.GetComponent<healthConcept>();
+                if (healthBarTarget.targetHealth != null)
+                {
+                    healthBarTarget.targetHealth.OnHealthChanged += (healthPercentage) => UpdateHealthBar(healthBarTarget, healthPercentage);
+                }
+                else
+                {
+                    Debug.LogError("No se encontró el componente Health en el objetivo " + healthBarTarget.target.name);
+                }
+            }
+            else
+            {
+                Debug.LogError("Target no asignado en uno de los elementos de healthBarTargets.");
+            }
 
-        // Actualizar visualmente la barra de salud al inicio
-        UpdateHealthBar();
+            UpdateHealthBar(healthBarTarget, (float)healthBarTarget.targetHealth.currentHealth / healthBarTarget.targetHealth.maxHealth);
+        }
     }
 
-    // Método para actualizar visualmente la barra de salud
-    private void UpdateHealthBar()
+    void OnDestroy()
     {
-        if (targetHealth != null)
+        foreach (var healthBarTarget in healthBarTargets)
         {
-            // Calcular el porcentaje de salud actual
-            float healthPercentage = (float)targetHealth.currentHealth / targetHealth.maxHealth;
-
-            // Actualizar fillAmount de la barra de salud
-            healthBar.fillAmount = healthPercentage;
+            if (healthBarTarget.targetHealth != null)
+            {
+                healthBarTarget.targetHealth.OnHealthChanged -= (healthPercentage) => UpdateHealthBar(healthBarTarget, healthPercentage);
+            }
         }
-        else
+    }
+
+    private void UpdateHealthBar(HealthBarTarget healthBarTarget, float healthPercentage)
+    {
+        if (healthBarTarget.targetHealth != null)
         {
-            Debug.LogError("No se encontró el componente Health en el objetivo.");
+            healthBarTarget.healthBar.fillAmount = healthPercentage;
         }
     }
 
     void Update()
     {
-        // Actualizar la barra de salud si ha cambiado la salud del objetivo
-        UpdateHealthBar();
-    }
-
-    // Método para manejar la muerte del objetivo
-    public void HandleDeath()
-    {
-        // Reiniciar la barra de salud al estado inicial
-        healthBar.fillAmount = 1.0f;
+       
     }
 }

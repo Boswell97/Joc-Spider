@@ -26,7 +26,6 @@ Este juego es un beat-em-up en 2D ambientado en el universo de Spider-Man.
 - **Movimiento:** Flechas del teclado (izquierda, derecha, arriba, abajo).
 - **Correr:** Flechas del teclado (izquierda o derecha) + Shift izquierdo.
 - **Arrastrarse:** Flecha hacia abajo + Flecha izquierda o derecha.
-- **Saltar:** Flecha hacia arriba.
 - **Ataques:** Teclas de acción (por determinar).
 
 ¡Diviértete jugando como Spider-Man y derrotando a los malhechores en este emocionante beat-em-up 2D!
